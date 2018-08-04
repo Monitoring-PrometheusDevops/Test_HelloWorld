@@ -11,13 +11,12 @@ pipeline {
  	  sh """
         ruby hello.rb
     """
-    
  	  }
    stage("Test"){
     steps{
      echo "testing success"
      sh """
-         ruby hello rb
+         ruby hello.rb
       """
     }
    }
