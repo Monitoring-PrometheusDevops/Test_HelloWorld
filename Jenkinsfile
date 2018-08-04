@@ -13,6 +13,14 @@ pipeline {
     """
     
  	  }
+   stage("Test"){
+    steps{
+     echo "testing success"
+     sh """
+         ruby hello rb
+      """
+    }
+   }
  	 }
   }
  }
