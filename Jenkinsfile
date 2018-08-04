@@ -8,9 +8,7 @@ pipeline {
  	}
  	stage('Build & Run') { 
  	steps {
- 	bat """
- 	
- 	"""
+ 	  echo "compilacion válida"
  	  }
  	 }
   }
