@@ -12,7 +12,7 @@ pipeline {
         ruby hello.rb
     """
  	  }
-   stage("Test"){
+   stage('Test'){
     steps{
      echo "testing success"
      sh """
@@ -22,4 +22,4 @@ pipeline {
    }
  	 }
   }
- }
+ 
