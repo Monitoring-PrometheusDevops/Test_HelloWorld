@@ -8,7 +8,10 @@ pipeline {
  	}
  	stage('Build & Run') { 
  	steps {
- 	  echo "compilacion válida"
+ 	  sh """
+        ruby hello.rb
+    """
+    
  	  }
  	 }
   }
